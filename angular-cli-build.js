@@ -11,7 +11,11 @@ module.exports = function(defaults) {
       'es6-shim/es6-shim.js',
       'reflect-metadata/**/*.+(js|js.map)',
       'rxjs/**/*.+(js|js.map)',
-      '@angular/**/*.+(js|js.map)'
+      '@angular/**/*.+(js|js.map)',
+      'bootstrap/**/bootstrap.min.css',
+      'font-awesome/**/font-awesome.min.css',
+      'font-awesome/fonts/*',
+      'fuel-ui/bundles/*'
     ]
   });
 };
